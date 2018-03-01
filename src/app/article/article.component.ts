@@ -67,7 +67,7 @@ export class ArticleComponent implements OnInit {
   onToggleFollowing(following: boolean) {
     this.article.author.following = following;
   }
-
+//This is delete article service
   deleteArticle() {
     this.isDeleting = true;
 
